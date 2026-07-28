@@ -138,11 +138,6 @@ transactional-update.
 %{_unitdir}/import-pubring-from-rpmdb.path
 %{_unitdir}/import-pubring-from-rpmdb.service
 %{_unitdir}/printenv.service
-%dir %{_unitdir}/salt-minion.service.d
-%{_unitdir}/salt-minion.service.d/TMPDIR.conf
-%{_tmpfilesdir}/salt-minion-tmpdir.conf
-%dir %{_distconfdir}/tukit.conf.d
-%{_distconfdir}/tukit.conf.d/salt-tukit.conf
 %{_bindir}/import-pubring-from-rpmdb
 %{_bindir}/man-online
 %{_distconfdir}/profile.d/man-online.sh
