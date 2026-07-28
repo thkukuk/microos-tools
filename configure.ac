@@ -31,7 +31,7 @@ AC_PROG_INSTALL
 AC_PROG_LN_S
 
 AC_CONFIG_FILES([Makefile systemd-printenv/Makefile \
-	tmpfs/Makefile selinux/Makefile \
+	selinux/Makefile \
 	import-pubring/Makefile \
 	zypp-single-rpmtrans/Makefile \
 	zypp-configs/Makefile \
